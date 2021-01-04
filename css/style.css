@@ -1,0 +1,144 @@
+table {
+    margin-top: 20px;
+  }
+
+  body{
+    background: url("../img/back.jpg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+  }
+  .form{
+    position: absolute;
+    top: 12%;
+    transform: translateY(-50%);
+    width: 90%;
+    padding: 0 80px;
+  }
+  fieldset {
+    padding:0 200px;
+    border-radius:10px;
+    margin: 0 auto;
+    background: rgb(236, 135, 135);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(136, 10, 10, 0.13);
+  }
+  
+  label {
+    display:inline-block;
+    margin-bottom:10px;
+  }
+  
+  .input1 {
+    float:right;
+    margin-right:70px;
+    width:200px;
+    display: flex;
+    border-bottom: 2px solid #c5ecfd;
+    width: 60%;
+  }
+
+  .btn{
+    background: #282f31b7;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  h2{
+    position: absolute;
+    top: 30%;
+    color:rgb(0, 0, 0);
+    font-size:px;
+    padding: 0 200px;
+  }
+div{
+  position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 200px;
+    background: rgb(236, 135, 135);
+    border-radius: 20px;
+    position: center;
+    
+  
+}
+p{
+  position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    padding: 0 100px;
+    background: rgb(236, 135, 135);
+    border-radius: 20px;
+    position: center;
+}
+table{
+  position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    width: 20%;
+    padding: 0 300px;
+    background: rgb(236, 135, 135);
+    border-radius: 20px;
+    position: center;
+    border: none;
+   
+}
+.search{
+  float:right;
+  margin-right:70px;
+  width:200px;
+  display: flex;
+  border-bottom: 2px solid #c5ecfd;
+  width: 60%;
+
+}
+.find{
+  background: #282f31b7;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.Empty{
+  background: #282f31b7;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.Save{
+  background: #282f31b7;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.Load{
+  background: #282f31b7;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+  legend{
+    color:rgb(99, 42, 24);font-size:40px;
+  }
+  input:invalid {
+    background-color:pink;
+  }
+  
+  input:valid {
+    background-color:lightgreen;
+  }
